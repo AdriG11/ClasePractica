@@ -38,18 +38,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(50, 23);
+            this.label1.Location = new System.Drawing.Point(67, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(276, 24);
+            this.label1.Size = new System.Drawing.Size(346, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Procesamiento de Imagenes";
             // 
             // btnCargar
             // 
-            this.btnCargar.Font = new System.Drawing.Font("Algerian", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargar.Location = new System.Drawing.Point(84, 368);
+            this.btnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCargar.Location = new System.Drawing.Point(112, 453);
+            this.btnCargar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCargar.Name = "btnCargar";
-            this.btnCargar.Size = new System.Drawing.Size(187, 52);
+            this.btnCargar.Size = new System.Drawing.Size(249, 64);
             this.btnCargar.TabIndex = 1;
             this.btnCargar.Text = "CARGAR IMAGEN";
             this.btnCargar.UseVisualStyleBackColor = true;
@@ -57,21 +59,23 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(54, 98);
+            this.pictureBox1.Location = new System.Drawing.Point(72, 121);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(280, 213);
+            this.pictureBox1.Size = new System.Drawing.Size(373, 262);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            
             // 
             // FrmOptimizar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(391, 450);
+            this.ClientSize = new System.Drawing.Size(521, 554);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnCargar);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmOptimizar";
             this.Text = "FrmOptimizar";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

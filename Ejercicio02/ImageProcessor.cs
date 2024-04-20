@@ -13,7 +13,7 @@ namespace Ejercicio02
         {
             Bitmap grayScale = new Bitmap(image.Width, image.Height);
 
-            Parallel.For(0, image.Width, x =>
+            for (int x = 0; x < image.Width; x++)
             {
                 for (int y = 0; y < image.Height; y++)
                 {
@@ -22,9 +22,9 @@ namespace Ejercicio02
                     Color grayColor = Color.FromArgb(average, average, average);
                     grayScale.SetPixel(x, y, grayColor);
                 }
-            });
+            }
 
             return grayScale;
         }
-        }
+    }
 }
